@@ -102,8 +102,4 @@ pip install numpy pandas matplotlib jupyter
 
 ## Author
 
-Student ID: 0080393
-
-## License
-
-This project is part of a machine learning course assignment.
+Mehmet Kantar
