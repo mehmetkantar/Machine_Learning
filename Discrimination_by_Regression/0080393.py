@@ -68,7 +68,9 @@ w0_initial = np.random.uniform(low = -0.001, high = 0.001, size = (1, K))
 def gradient_W(X, Y_truth, Y_predicted):
     # your implementation starts below
 
-    gradient =np.matmul( X.T , ((Y_predicted - Y_truth) * (Y_predicted * (1.0 - Y_predicted))))  
+    gradient =np.matmul( X.T , ((Y_predicted - Y_truth) * (Y_predicted * (1.0 - Y_predicted)))) 
+    # transpose X and multiply with the gradient term
+    # gradient terms is (Y_predicted - Y_truth) * (Y_predicted * (1.0 - Y_predicted)) 
     
     
     
